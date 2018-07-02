@@ -1,0 +1,42 @@
+{
+  "name": "anonymous-analytics",
+  "version": "1.0.0",
+  "description": "Anonymized, cookieless Google Analytics",
+  "source": "index.js",
+  "main": "dist/anonymous-analytics.js",
+  "eslintConfig": {
+    "extends": "@gentsagency/eslint-config"
+  },
+  "scripts": {
+    "build": "microbundle --target browser --format iife --sourcemap false && exit 0",
+    "lint": "eslint --fix *.js && exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pieterbeulque/anonymous-analytics.git"
+  },
+  "keywords": [
+    "anonymous",
+    "analytics",
+    "google-analytics",
+    "ga"
+  ],
+  "author": "Pieter Beulque <pieterbeulque@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pieterbeulque/anonymous-analytics/issues"
+  },
+  "homepage": "https://github.com/pieterbeulque/anonymous-analytics#readme",
+  "devDependencies": {
+    "@gentsagency/eslint-config": "^2.0.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.13.0",
+    "microbundle": "^0.4.4"
+  },
+  "dependencies": {
+    "histore": "^1.0.0",
+    "nanoid": "^1.0.4",
+    "storee": "^1.0.1"
+  }
+}
