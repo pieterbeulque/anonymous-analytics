@@ -15,6 +15,10 @@ The `ga` object is still exposed on `window`, so you can still do any other even
 </script>
 ```
 
+## Browser support
+
+It works on every modern browser and has been tested in IE11. I don't see any reason why it should not work in any older versions of Internet Explorer, but I haven't tested it thoroughly.
+
 ## Disclaimer
 
 I am not a lawyer and cannot be held accountable for any wrong advice
