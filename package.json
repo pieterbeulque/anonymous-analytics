@@ -37,6 +37,6 @@
   "dependencies": {
     "histore": "^1.0.0",
     "nanoid": "^2.0.0",
-    "storee": "^1.2.0"
+    "storee": "^1.2.1"
   }
 }
