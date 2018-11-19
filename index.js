@@ -1,5 +1,5 @@
 import storee from 'storee';
-import nanoid from 'nanoid';
+import nanoid from 'nanoid/non-secure';
 import histore from 'histore';
 
 const ANONYMOUS_ANALYTICS_CLIENT_ID = 'ANONYMOUS_ANALYTICS_CLIENT_ID';
